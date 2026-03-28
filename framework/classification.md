@@ -8,13 +8,35 @@ YC各バッチの企業を横断比較するための分類体系。Claude API�
 
 ### L1: ビジネスモデル (`biz_model`)
 
-| タグ | 定義 | 例 |
-|------|------|----|
-| `SaaS` | 月額/年額サブスクリプション収益。ソフトウェアのみ | Salesforce型 |
-| `BPO_replacement` | 従来の人手業務をAIで代替。取引単価×件数 | 法務レビュー、会計記帳 |
-| `take_rate` | マーケットプレイス・プラットフォーム。GMVの数% | Stripe, Airbnb型 |
-| `infra` | APIやインフラ提供。従量課金またはシート | AWS, Twilio型 |
-| `asset_heavy` | 物理資産・製造・ハードウェアを伴う | ドローン, ロボット, デバイス |
+| タグ | 定義 | 例 | YC代表例 |
+|------|------|----|---------|
+| `SaaS` | 月額/年額サブスクリプション収益。ソフトウェアのみ | Salesforce型 | Hex Security, Vela |
+| `BPO_replacement` | 従来の人手業務をAIが丸ごと代替。人間不要化。取引単価×件数 | コールセンター代替, データ入力代替 | Patientdesk.ai, Robby |
+| **`ai_armed_operator`** | **AIと人間の専門家を組み合わせた「AI強化型事業者」。サービスを直接提供。高信頼・監査可能が差別化** | **AI＋弁護士, AI＋会計士, AI＋医師** | **General Legal, Balance, Corvera** |
+| `take_rate` | マーケットプレイス・プラットフォーム。GMVの数% | Stripe, Airbnb型 | Asimov（ロボットデータ市場）|
+| `infra` | APIやインフラ提供。従量課金またはシート | AWS, Twilio型 | Terminal Use, Chamber |
+| `asset_heavy` | 物理資産・製造・ハードウェアを伴う | ドローン, ロボット, デバイス | Voltair, Milliray, Pocket |
+
+#### `ai_armed_operator`（AIをフル活用した事業者）詳説
+
+**BPO_replacementとの違い**:
+- `BPO_replacement` = AIが人間を**代替**する（ソフトウェアが人間の仕事を奪う）
+- `ai_armed_operator` = AIが人間を**強化**する（AI＋人間が高品質なサービスを提供）
+
+**特徴**:
+1. **収益モデル**: 成果報酬・プロジェクトフィー・従量課金（SaaSではない）
+2. **差別化**: 精度・速度・監査可能性（AIのみより高く、人間のみより安い）
+3. **代表的課金**: $500/契約（General Legal）、月額固定＋従量（Balance）
+4. **信頼係数**: 専門家ライセンスや資格が参入障壁になる
+5. **スケール**: 人間オペレーターの採用でスケールする（ソフトのみより緩やか）
+
+**W26のai_armed_operator事例**:
+| 企業 | AI | 人間の専門家 | 価格 |
+|------|----|-----------|----|
+| General Legal | 契約書ドラフト | Harvard Law JD弁護士 | $500/件 |
+| Balance | 帳簿照合・仕訳AI | CPAサイン | 月額定額 |
+| Corvera | サプライチェーンAI | オペレーションスペシャリスト | % of savings |
+| Overdrive Health | 保険請求AI | 請求専門スタッフ | 成功報酬 |
 
 ### L2: AIの使い方 (`ai_type`)
 
