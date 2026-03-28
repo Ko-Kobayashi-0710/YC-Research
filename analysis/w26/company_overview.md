@@ -233,6 +233,14 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 | 116 | **DAIVIN** | 世界初タンクレス潜水機器（水から酸素抽出、宇宙・危険環境への展開計画） | asset_heavy | non_ai | B2B/gov | low | 1 | — |
 | 117 | **Hlabs** | 米国製プラグアンドプレイ・ロボット部品キット（Jetson/FOC/アクチュエータ） | asset_heavy | non_ai | B2B | mid | 3 | W21 YC卒業生創業者 |
 | 118 | **Cumulus Labs** | ハードウェア（詳細未公開、ソロ創業者） | asset_heavy | non_ai | B2B | mid | 2 | — |
+| 119 | **Kyten Technologies** | 宇宙・ドローン・潜水艦向け航空宇宙グレード電池パック製造（ex-Starlink 5000個超打上） | asset_heavy | non_ai | B2B/gov | low | 2 | ex-Starlink 6年 |
+| 120 | **Impossible Mining** | 海底の多金属性ノジュールからEV用電池金属採掘（環境負荷ゼロ水中ロボット） | asset_heavy | non_ai | B2B | low | 1 | $500M+オフテイクLoI |
+| 121 | **Ferveret** | 核発電所冷却着想のウォーターレスデータセンター冷却（コスト96%削減、チップ性能2x） | asset_heavy | non_ai | B2B | mid | 2 | UCLA共同研究、PUE 1.03達成 |
+| 122 | **Remy AI** | 倉庫内ピッキング・仕分けの精密作業ロボット（物流向け器用な手） | asset_heavy | workflow_ai | B2B | high | 2 | — |
+| 123 | **One Robot** | ロボット評価・訓練用世界モデル（VLAモデルのシミュレーション環境） | SaaS | infra | B2B | mid | 3 | — |
+| 124 | **Human Archive** | 具身化AIのためのマルチモーダルデータ収集（Stanford/Berkeley中退、アジアで世界最大データセット） | take_rate | non_ai | B2B | mid | 2 | — |
+| 125 | **Origami Robotics** | 何でも操作できる汎用ロボットシステム（Manipulate Anything） | asset_heavy | workflow_ai | B2B | mid | 2 | — |
+| 126 | **General Astronautics** | 宇宙内製造・科学研究向け自律ロボットシステム | asset_heavy | non_ai | B2B/gov | low | 1 | — |
 
 ---
 
@@ -240,7 +248,60 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 
 | # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
 |---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
-| 119 | **Samora AI** | 高頻度インバウンド/アウトバウンド向け多言語音声エージェント（安全な人間エスカレーション付） | BPO_replacement | workflow_ai | B2B | high | 5 | — |
+| 127 | **Samora AI** | 高頻度インバウンド/アウトバウンド向け多言語音声エージェント（安全な人間エスカレーション付） | BPO_replacement | workflow_ai | B2B | high | 5 | — |
+
+---
+
+## 気候・エネルギー・地球科学
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 128 | **Sorcerer** | 高高度気球による天気観測（既存システムの1000倍データ、気象予報士が毎日使用） | asset_heavy | vertical_ai | B2B/gov | low | 2 | 米・中米気象当局採用中 |
+
+---
+
+## 保険テック
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 129 | **Tesora** | 保険引受・保険数理AIネイティブSaaS（"Harvey for insurance underwriting"）| SaaS | workflow_ai | B2B | high | 4 | Stanford CS/ex-Google Doc AI |
+| 130 | **Adaptional** | 保険引受AIエージェント（書類データ抽出→公開情報検証→リスク要約、既存SORに乗る） | SaaS | workflow_ai | B2B | high | 4 | — |
+| 131 | **Panta Insurance** | 建設・物流・製造向けAI商業保険ブローカー（ソフトウェアのようにスケール） | ai_armed_operator | workflow_ai | B2B | mid | 3 | — |
+
+---
+
+## AIエンジニアリング・ML自動化
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 132 | **Jarmin.ai** | 24/7 ML/AIエンジニア代替（タスクを渡すだけ。Meta SuperIntelligence Labs/Apple/AWS創業者） | BPO_replacement | workflow_ai | B2B | high | 4 | ex-MetaAI Staff Eng |
+| 133 | **Sciloop** | ML研究者向けAI共同科学者（実験・分析自動化。MIT CSAIL物理五輪メダリスト） | SaaS | workflow_ai | B2B | low | 3 | MIT CSAIL出身 |
+| 134 | **Exonic** | 遺伝子治療向け生物学基盤モデル（肝臓がん治療でin vitro SOTA達成） | infra | vertical_ai | B2B | low | 1 | 2025年SOTA達成 |
+
+---
+
+## 輸送・フリート・ロジスティクス
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 135 | **Carma** | フリート運営AIプラットフォーム（フォーチュン500含む大手顧客、千時間節約） | SaaS | workflow_ai | B2B | high | 4 | $5.5M調達、Fortune 500顧客 |
+| 136 | **Burt** | ロジスティクスチーム向けAIルーティング・スケジューリング最適化 | SaaS | workflow_ai | B2B | high | 4 | — |
+
+---
+
+## 規制・コンプライアンス追加
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 137 | **Kyber** | 規制産業（保険・金融）向け複雑な規制通知ドラフト・承認・送信AI | SaaS | workflow_ai | B2B | high | 4 | — |
+
+---
+
+## データ・インテリジェンス
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 138 | **Sixtyfour** | 企業・人物データオーケストレーション（AIリサーチエージェントで営業/採用/マーケ自動化） | SaaS | workflow_ai | B2B | high | 4 | 1.4M開発者利用（21st.devと同チーム?要確認） |
 
 ---
 
@@ -248,9 +309,9 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 
 | 指標 | 値 |
 |------|----|
-| 本リスト掲載企業数 | 119社 |
+| 本リスト掲載企業数 | 138社 |
 | バッチ全体 | 196社 |
-| カバレッジ | ~61% |
+| カバレッジ | ~70% |
 | traction確認済み | 25社 |
 | $1M ARR達成（バッチ全体） | 14社（過去最多） |
 
