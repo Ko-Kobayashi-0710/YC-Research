@@ -1,6 +1,6 @@
 # W26 企業概要一覧（拡張版）
 
-Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバレッジ ~61%）
+Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: 191社（カバレッジ ~97%）
 
 > **7軸タグ**: biz_model / ai_type / customer / industry / japan_fit(H/M/L) / CiK(1-5) / traction
 
@@ -36,13 +36,13 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 | 17 | **Sonarly** | ソフトウェア開発者のデバッグプロセス強化 | SaaS | workflow_ai | B2B | high | 4 | — |
 | 18 | **Bubble Lab** | 自然言語でワークフロー構築するOSSエージェント基盤 | infra | infra | B2B | high | 3 | — |
 | 27 | **21st Dev** | コーディングエージェントの並列オーケストレーション層 | infra | infra | B2B | mid | 3 | — |
-| 28 | **Velum Labs** | あらゆるスタックのデータ品質OS（整合性・鮮度・精度） | SaaS | infra | B2B | high | 4 | — |
+| 28 | **Velum Labs** | AI・人間間の情報アクセスを制御するファイアウォール（情報セキュリティ） | SaaS | infra | B2B | high | 4 | — |
 | 29 | **Ashr** | 本番環境でユーザー行動をシミュレートしてAIエージェント障害を検知 | SaaS | infra | B2B | high | 4 | — |
 | 30 | **Fission AI** | コーディングエージェント・CLI向けOpenSpecフレームワーク（ソロ創業者） | infra | infra | B2B | mid | 3 | — |
 | 31 | **Sparkles** | 非エンジニアがソフトウェアを作れるAI開発環境 | SaaS | new_behavior | B2B | high | 4 | — |
 | 32 | **compresr** | LLMエージェントのコンテキスト圧縮（Claude Code統合済み） | infra | infra | B2B | high | 4 | Claude Code統合 |
 | 33 | **Agentic Fabriq** | AIエージェント向けOkta（エージェントのID/パーミッション管理） | SaaS | infra | B2B | high | 5 | — |
-| 34 | **Haladir** | 検証可能ドメイン向けRL訓練インフラ（SMT/SATソルバー×強化学習） | infra | infra | B2B | low | 2 | — |
+| 34 | **Haladir** | AIによるメインフレーム近代化・コード変換（COBOLなど旧世代コードをモダン言語へ） | SaaS | workflow_ai | B2B | mid | 3 | — |
 
 ---
 
@@ -86,8 +86,8 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 | 53 | **Docura Health** | 労災保険の医療記録AIレビュー・要約（数千ページを構造化） | SaaS | workflow_ai | B2B | low | 3 | — |
 | 54 | **Scheduling Wizard** | 医療機関スケジューリング最適化AI | SaaS | workflow_ai | B2B | high | 4 | — |
 | 55 | **Fort** | 筋力トレーニング自動追跡ウェアラブル（rep/set/努力度） | asset_heavy | new_behavior | B2C | mid | 3 | — |
-| 56 | **Mantis** | 医療系（詳細未確認） | SaaS | vertical_ai | B2B | mid | 3 | — |
-| 57 | **Ruma Care** | 医療系（詳細未確認） | SaaS | vertical_ai | B2B | mid | 3 | — |
+| 56 | **Mantis Biotechnology** | ヒューマン・イン・コンピュータモデルのインフラ（脳×コンピュータ融合基盤） | infra | infra | B2B | low | 2 | — |
+| 57 | **Ruma Care** | クリニックが生物製剤（biologics）処方を迅速化するAI支援プラットフォーム | SaaS | vertical_ai | B2B | mid | 3 | — |
 | 58 | **Tepali** | 医療系（詳細未確認） | SaaS | vertical_ai | B2B | mid | 3 | — |
 
 ---
@@ -232,7 +232,7 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 |---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
 | 116 | **DAIVIN** | 世界初タンクレス潜水機器（水から酸素抽出、宇宙・危険環境への展開計画） | asset_heavy | non_ai | B2B/gov | low | 1 | — |
 | 117 | **Hlabs** | 米国製プラグアンドプレイ・ロボット部品キット（Jetson/FOC/アクチュエータ） | asset_heavy | non_ai | B2B | mid | 3 | W21 YC卒業生創業者 |
-| 118 | **Cumulus Labs** | ハードウェア（詳細未公開、ソロ創業者） | asset_heavy | non_ai | B2B | mid | 2 | — |
+| 118 | **Cumulus Labs** | 最適化GPUクラウド（コスト・性能最適化を自動で行うGPUインフラ） | infra | infra | B2B | mid | 3 | — |
 | 119 | **Kyten Technologies** | 宇宙・ドローン・潜水艦向け航空宇宙グレード電池パック製造（ex-Starlink 5000個超打上） | asset_heavy | non_ai | B2B/gov | low | 2 | ex-Starlink 6年 |
 | 120 | **Impossible Mining** | 海底の多金属性ノジュールからEV用電池金属採掘（環境負荷ゼロ水中ロボット） | asset_heavy | non_ai | B2B | low | 1 | $500M+オフテイクLoI |
 | 121 | **Ferveret** | 核発電所冷却着想のウォーターレスデータセンター冷却（コスト96%削減、チップ性能2x） | asset_heavy | non_ai | B2B | mid | 2 | UCLA共同研究、PUE 1.03達成 |
@@ -285,7 +285,7 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 | # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
 |---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
 | 135 | **Carma** | フリート運営AIプラットフォーム（フォーチュン500含む大手顧客、千時間節約） | SaaS | workflow_ai | B2B | high | 4 | $5.5M調達、Fortune 500顧客 |
-| 136 | **Burt** | ロジスティクスチーム向けAIルーティング・スケジューリング最適化 | SaaS | workflow_ai | B2B | high | 4 | — |
+| 136 | **Burt** | Fine-tuning専門モデルの構築・デプロイを簡易化するMLOpsプラットフォーム | SaaS | infra | B2B | high | 4 | — |
 
 ---
 
@@ -305,17 +305,151 @@ Demo Day: 2026年3月24日 | 総社数: 196社 | 本リスト: ~120社（カバ�
 
 ---
 
+## yc-oss API追加企業（新規53社）
+
+### AIエージェントインフラ・デベロッパーツール（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 139 | **Tensol** | スタートアップ向けAI従業員。OpenClawで構築 | ai_armed_operator | workflow_ai | B2B | high | 4 | — |
+| 140 | **Bits** | クラウド上での高速・安全なOpenClaw実行環境 | infra | infra | B2B | mid | 3 | — |
+| 141 | **Lucent** | セッションリプレイを自動監視してバグを検知するAI | SaaS | infra | B2B | high | 4 | — |
+| 142 | **Salus** | AIエージェントのアクション実行前に検証するガードレール | SaaS | infra | B2B | high | 4 | — |
+| 143 | **EigenPal** | エンタープライズ向けAIドキュメントワークフロー | SaaS | workflow_ai | B2B | high | 4 | — |
+| 144 | **Traverse** | 長期エージェントジャーニー向けRL環境 | infra | infra | B2B | low | 3 | — |
+| 145 | **Ressl AI** | AIトランスフォーメーション・パートナー（AI導入支援） | ai_armed_operator | workflow_ai | B2B | mid | 3 | — |
+| 146 | **Oximy** | エンタープライズAI利用の記録システム（AI使用量・コスト管理） | SaaS | infra | B2B | high | 4 | — |
+| 147 | **Crow** | チャット経由でユーザーがアプリを操作できるSDK | infra | infra | B2B | mid | 3 | — |
+| 148 | **Mendral** | AIが行うDevOpsエンジニアリング（デプロイ・監視・修復） | SaaS | workflow_ai | B2B | high | 4 | — |
+| 149 | **RamAIn** | 複雑ワークフローを超高速で自動化するコンピュータ使用エージェント | SaaS | workflow_ai | B2B | high | 4 | — |
+| 150 | **Corelayer** | データを使ってデバッグするAIオンコールエンジニア | SaaS | workflow_ai | B2B | high | 4 | — |
+| 151 | **Luel** | 日常の言葉・行動を使えるトレーニングデータに変換 | infra | infra | B2B | mid | 3 | — |
+| 152 | **Shofo** | 動画版Common Crawl（大規模動画データインフラ） | infra | infra | B2B | low | 2 | — |
+| 153 | **Ishiki Labs** | マルチモーダルAIの未来を構築（基盤研究） | infra | infra | B2B | low | 2 | — |
+| 154 | **SideKit** | モバイルアプリをプロダクションへ届ける一元パッケージ | SaaS | infra | B2B | mid | 3 | — |
+| 155 | **Aurorin CAD** | ハードウェア企業の出荷スピードを加速するCADツール | SaaS | workflow_ai | B2B | high | 4 | — |
+
+---
+
+### フィンテック・エージェント経済インフラ（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 156 | **Forum** | 注目度（Attention）を取引できる初の規制済み取引所 | take_rate | non_ai | B2C | low | 2 | — |
+| 157 | **Maywood** | M&A向けAI（売買マッチング・デューデリ自動化） | SaaS | workflow_ai | B2B | mid | 4 | — |
+| 158 | **Q2Q** | PEチームが買収ターゲットを高速で発見するAI | SaaS | workflow_ai | B2B | mid | 4 | — |
+| 159 | **o11** | M365と最深統合のAIスイート（Office/Teams/Outlook全対応） | SaaS | workflow_ai | B2B | high | 4 | — |
+| 160 | **ZeroSettle** | App Store税を回避してウェブ決済を実現するインフラ | take_rate | infra | B2B | mid | 3 | — |
+| 161 | **Byteport** | 1GB〜100TBファイルのグローバル高速アップロード基盤 | infra | infra | B2B | mid | 3 | — |
+
+---
+
+### ヘルスケア・バイオテック（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 162 | **Valgo** | 自律システム向けアルゴリズム安全検証ツール | SaaS | vertical_ai | B2B | mid | 3 | — |
+
+---
+
+### リーガルテック（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 163 | **LegalOS** | 複雑な就労ビザ申請をAIで処理するAIネイティブ法律事務所 | ai_armed_operator | workflow_ai | B2B | mid | 4 | — |
+| 164 | **Arcline** | エリート弁護士×当日納品のスタートアップ法務サービス | ai_armed_operator | workflow_ai | B2B | mid | 4 | — |
+| 165 | **Stilta** | 特許実務家向けカーソル（AI補完・草稿生成） | SaaS | workflow_ai | B2B | mid | 4 | — |
+| 166 | **Fed10** | 政策コンサルタントを代替するAIエージェント | SaaS | workflow_ai | B2B/gov | low | 3 | — |
+| 167 | **Protent** | ミッションクリティカルオペレーション向けAIインテリジェンス | SaaS | vertical_ai | B2B | mid | 3 | — |
+
+---
+
+### エンタープライズ・業務自動化（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 168 | **Unisson** | 顧客対応チーム向けAIプロダクトスペシャリスト | SaaS | workflow_ai | B2B | high | 4 | — |
+| 169 | **Chasi** | 設備の販売・サービス・レンタル向けAIコンシェルジュ | SaaS | workflow_ai | B2B | high | 4 | — |
+| 170 | **Booko** | 時間枠販売ビジネス向けダイナミックプライシングAI | SaaS | workflow_ai | B2B | high | 4 | — |
+| 171 | **Zymbly** | 航空機整備士のアドミン業務を自動化 | SaaS | workflow_ai | B2B | mid | 3 | — |
+| 172 | **Caretta** | 営業電話のリアルタイムAI支援（トーキングポイント・要約） | SaaS | workflow_ai | B2B | high | 4 | — |
+| 173 | **Autumn AI** | 大規模プロスペクト調査を自動化する営業インテリジェンス | SaaS | workflow_ai | B2B | mid | 4 | — |
+| 174 | **Oxus** | 内部監査ワークフローをAIで自動化 | SaaS | workflow_ai | B2B | high | 4 | — |
+| 175 | **FullSeam** | 財務・経理チーム向けAI従業員 | ai_armed_operator | workflow_ai | B2B | high | 4 | — |
+| 176 | **Laurence** | パフォーマンスマーケティング向け強化学習最適化 | SaaS | vertical_ai | B2B | mid | 4 | — |
+| 177 | **Skillsync** | OSSコントリビューターを人材発掘するリクルーティングAI | SaaS | workflow_ai | B2B | mid | 3 | — |
+| 178 | **Librar Labs** | 図書館から始まるフィジカル知識のインテリジェンス化 | SaaS | vertical_ai | B2B | mid | 3 | — |
+| 179 | **Resonate** | 初のAIネイティブメッセージングプラットフォーム | SaaS | new_behavior | B2C | mid | 3 | — |
+
+---
+
+### セキュリティ（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 180 | **BeeSafe AI** | 顧客に届く前に詐欺・スキャムを検知・防止するAI | SaaS | vertical_ai | B2B | high | 4 | — |
+
+---
+
+### 不動産・建設・空間テック（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 181 | **Bidflow** | 電気工事の見積もりAIコパイロット（BOM自動生成） | SaaS | workflow_ai | B2B | high | 4 | — |
+| 182 | **Scout Out** | 住宅建設プロジェクト向けAI提案書自動生成 | SaaS | workflow_ai | B2B | high | 4 | — |
+| 183 | **REV1** | CAD後工程を自動化してハードウェア設計サイクルを短縮 | SaaS | workflow_ai | B2B | high | 4 | — |
+| 184 | **BaseFrame** | ハードウェア設計リスク・トレードオフを早期検知するAIエージェント | SaaS | workflow_ai | B2B | high | 4 | — |
+
+---
+
+### 農業・食料（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 185 | **Verdex** | 農地向け資産インテリジェンス（農場モニタリング・分析） | SaaS | vertical_ai | B2B | mid | 3 | — |
+
+---
+
+### 防衛・宇宙・航空（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 186 | **DroneTector** | 敵対ドローンの検知・追跡技術 | asset_heavy | vertical_ai | gov | low | 2 | — |
+| 187 | **Beyond Reach Labs** | 軌道上でフットボール場サイズまで展開するソーラーアレイ | asset_heavy | non_ai | gov | low | 1 | — |
+| 188 | **AxionOrbital Space** | 24/7地球観測向け基盤モデル | infra | vertical_ai | B2B/gov | low | 2 | — |
+
+---
+
+### エンターテイメント・コンシューマー（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 189 | **CatchBack Cards** | トレーディングカードコレクション体験を最大化するプラットフォーム | marketplace | non_ai | B2C | mid | 3 | — |
+| 190 | **Martini** | プロ向けAIネイティブ共同映画制作ツール | SaaS | new_behavior | B2B | mid | 3 | — |
+
+---
+
+### クリエイターツール・メディア（追加）
+
+| # | 企業名 | 事業概要（一行） | biz_model | ai_type | customer | japan_fit | CiK | traction |
+|---|--------|-----------------|-----------|---------|---------|-----------|-----|---------|
+| 191 | **Visibl Semiconductors** | チップ設計向けAIエージェント（EDA自動化） | SaaS | workflow_ai | B2B | mid | 3 | — |
+
+---
+
 ## カバレッジ統計
 
 | 指標 | 値 |
 |------|----|
-| 本リスト掲載企業数 | 138社 |
+| 本リスト掲載企業数 | 191社 |
 | バッチ全体 | 196社 |
-| カバレッジ | ~70% |
+| カバレッジ | ~97% |
+| yc-oss API収録 | 132社 |
 | traction確認済み | 25社 |
 | $1M ARR達成（バッチ全体） | 14社（過去最多） |
+| 最終更新 | 2026-03（yc-oss API + WebSearch統合） |
 
-### ビジネスモデル分布（119社ベース）
+### ビジネスモデル分布（191社ベース・概算）
 
 | biz_model | 社数 | % | 前バッチ比 |
 |-----------|------|---|-----------|
